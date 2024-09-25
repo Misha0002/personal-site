@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+</head>
+<body>
+
+    <header>
+        <h1>Контактна форма</h1>
+    </header>
+
+    <section>
+        <h2>Форма зворотного зв'язку</h2>
+
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <!-- Поле для імені -->
+            <label for="name">Ваше ім'я:</label><br>
+            <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я" required><br><br>
+
+            <!-- Поле для електронної пошти -->
+            <label for="email">Ваш email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Введіть ваш email" required><br><br>
+
+            <!-- Поле для повідомлення -->
+            <label for="message">Повідомлення:</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Введіть ваше повідомлення" required></textarea><br><br>
+
+            <!-- Кнопка для відправки -->
+            <input type="submit" value="Відправити">
+        </form>
+
+    </section>
+
+</body>
+</html>
